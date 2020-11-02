@@ -1,0 +1,34 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "code-challenge",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": true,
+    "seederStorage": "sequelize"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "code-challenge",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": true,
+    "seederStorage": "sequelize"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "code-challenge",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": true,
+    "seederStorage": "sequelize"
+  },
+  "server": {
+    "port": 5000,
+    "apiVersion": "/api/v1",
+    "env": "development"
+  }
+}

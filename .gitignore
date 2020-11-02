@@ -1,0 +1,16 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+config/config.json
+.idea
+
+# dependencies
+node_modules
+
+# misc
+.DS_Store
+npm-debug.log*
+
+# logs
+logs
+.vscode/launch.json
+yarn-error.log
